@@ -1,0 +1,46 @@
+{
+  "source": "https://archive.ics.uci.edu/static/public/320/student+performance.zip",
+  "file": "student-por.csv",
+  "sha256": "a7594a11d7771c0efe1a740824e0e833da9c4cad07c39a9766a874575563fb3f",
+  "n": 649,
+  "alpha": 1,
+  "parents": {
+    "education": [],
+    "failures": [],
+    "higher": [
+      "education",
+      "failures"
+    ],
+    "study": [
+      "education",
+      "higher"
+    ],
+    "passed": [
+      "failures",
+      "higher",
+      "study"
+    ]
+  },
+  "states": {
+    "education": [
+      0,
+      1
+    ],
+    "failures": [
+      0,
+      1
+    ],
+    "higher": [
+      0,
+      1
+    ],
+    "study": [
+      0,
+      1
+    ],
+    "passed": [
+      0,
+      1
+    ]
+  }
+}
